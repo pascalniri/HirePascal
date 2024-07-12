@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Deal = () => {
   return (
-    <div className='w-full lg:h-[100vh] bg-black text-white flex flex-col justify-center items-center lg:flex lg:flex-row'>
+    <div className='w-full h-[100vh] bg-black text-white flex flex-col justify-center items-center lg:flex lg:flex-row'>
         <div style={{backgroundImage:`url(${heroBg2})`}} className='lg:w-1/2 mx-auto px-4 pt-[100px] pb-[50px] h-[100%] lg:h-[100vh] text-center bg-cover bg-center bg-no-repeat flex flex-col-reverse justify-center items-center'>
             <p>Thank you for choosing to work with us! Please fill out the form to get started on creating the perfect UI/UX design for your project. We look forward to bringing your vision to life!</p>
             <Link to="/">

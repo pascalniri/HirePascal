@@ -8,6 +8,10 @@ const Home = () => {
       {/* Desktop view */}
       <div className='hidden md:flex md:flex-row md:justify-center md:items-center md:w-full'>
         <div className='mx-auto px-4 md:w-1/2 md:ml-[50px] lg:ml-[100px]'>
+         <div className=' mt-[40px] mb-[100px] flex items-center gap-[10px]'>
+          <img src="/hirepascal.svg" alt="" className='w-[50px]' />
+          <h1 className='font-archivo text-[20px]'><span className='text-[#FF4739]'>HIRE</span> <span>P</span>ASCAL</h1>
+         </div>
           <h1 className='font-archivo text-[30px] sm:text-[35px] lg:text-[45px]'>
             GET THE PERFECT ATTRACTIVE UI/UX DESIGN FOR YOUR WEBSITE
           </h1>
@@ -27,6 +31,10 @@ const Home = () => {
         style={{ backgroundImage: `url(${heroBg2})` }}
         className='relative w-full h-[100vh] bg-cover bg-center bg-no-repeat md:hidden'
       >
+        <div className='mt-[30px] ml-[20px] flex items-center gap-[10px]'>
+          <img src="/hirepascal.svg" alt="" className='w-[50px]' />
+          <h1 className='font-archivo text-[20px]'><span className='text-[#FF4739]'>HIRE</span> <span>P</span>ASCAL</h1>
+         </div>
         <div className='absolute flex flex-col justify-center items-center h-full w-full'>
           <h1 className='font-archivo text-[30px] text-center'>
             GET THE PERFECT ATTRACTIVE UI/UX DESIGN FOR YOUR WEBSITE
